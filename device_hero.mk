@@ -62,7 +62,14 @@ PRODUCT_COPY_FILES += \
     device/htc/hero/init.hero.rc:root/init.hero.rc \
     device/htc/hero/init.rc:root/init.rc \
     device/htc/hero/placeholder:system/sd/placeholder \
-    device/htc/hero/ueventd.hero.rc:root/ueventd.hero.rc
+    device/htc/hero/ueventd.hero.rc:root/ueventd.hero.rc \
+    device/htc/hero/bin/compcache:system/bin/compcache \
+    device/htc/hero/bin/rzscontrol:system/xbin/rzscontrol \
+    device/htc/hero/init.d/00banner:system/etc/init.d/00banner \
+    device/htc/hero/init.d/05mountsd:system/etc/init.d/05mountsd \
+    device/htc/hero/init.d/10apps2sd:system/etc/init.d/10apps2sd \
+    device/htc/hero/init.d/11fsready:system/etc/init.d/11fsready \
+    device/htc/hero/init.d/12compcache:system/etc/init.d/12compcache
 
 # Keylayouts
 PRODUCT_COPY_FILES += \
