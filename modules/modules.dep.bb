@@ -6,7 +6,7 @@ fs/cifs/cifs.ko
 
 fs/fuse/fuse.ko char_major_10_229 symbol:fuse_conn_init
 
-ramzswap.ko
+drivers/staging/ramzswap/ramzswap.ko
 
 drivers/hid/hid-dummy.ko
 

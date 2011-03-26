@@ -60,6 +60,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     device/htc/hero/init.hero.rc:root/init.hero.rc \
+    device/htc/hero/init.rc:root/init.rc \
+    device/htc/hero/placeholder:system/sd/placeholder \
     device/htc/hero/ueventd.hero.rc:root/ueventd.hero.rc
 
 # Keylayouts
