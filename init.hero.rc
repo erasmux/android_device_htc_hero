@@ -75,9 +75,6 @@ on boot
     write /sys/module/lowmemorykiller/parameters/minfile 0,0,0,4632,5632,6144
     write /sys/module/lowmemorykiller/parameters/check_filepages 1
 
-    # lowmem killer minfree adjustments
-    write /sys/module/lowmemorykiller/parameters/minfree 1536,2048,4096,9216,10240,10240
-
 # compass/accelerometer daemon
 service akmd /system/bin/akmd
     user compass
