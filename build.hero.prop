@@ -9,3 +9,8 @@ ro.build.product=hero
 # GSM
 ro.telephony.default_network=0
 
+# The OpenGL ES API level that is natively supported by this device.
+# This is a 16.16 fixed point number
+ro.opengles.version=65537
+
+ro.product.multi_touch_enabled=true
